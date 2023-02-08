@@ -71,6 +71,12 @@
 </main>
 
 <style>
+  :global(h2){
+    font-size: large;
+    padding: 1rem;
+    margin: 4px;
+  }
+
   .underline{
     text-decoration: underline;
   }

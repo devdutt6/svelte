@@ -6,7 +6,10 @@
   <slot name='card'>Default</slot>
   <div class="header"><slot name='header'></slot></div>
   <div class="content"><slot name='content'>Fall back content</slot></div>
-  <div class="footer"><slot name='footer'></slot></div>
+  {#if $$slots.footer}
+    <hr />
+    <div class="footer"><slot name='footer'></slot></div>
+  {/if}
 </div>
 
 <style>
