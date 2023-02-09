@@ -1,6 +1,11 @@
 <script>
   import Card from "../../components/Card.svelte";
 	import NameList from "../../components/NameList.svelte";
+  import Display from "../../components/Display.svelte";
+  import Increment from "../../components/Increment.svelte";
+	import Decrement from "../../components/Decrement.svelte";
+	import Reset from "../../components/Reset.svelte";
+	import Time from "../../components/Time.svelte";
 </script>
 
 <Card />
@@ -22,3 +27,12 @@
 <NameList>
   <h3 slot="hero" let:lname>{lname}</h3>
 </NameList>
+
+<!-- Stores -->
+<Display />
+<Increment />
+<Decrement />
+<Reset />
+
+<!-- Readable store -->
+<Time />
