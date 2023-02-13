@@ -18,5 +18,7 @@
 
 <h2>Product list</h2>
 {#each products as product (product.id)}
-  <h3>{product.name}</h3>
+  <h3><a href={`/product/${product.id}`}>{product.name}</a></h3>
 {/each}
+
+<a href="/">Home</a>

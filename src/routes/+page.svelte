@@ -67,6 +67,8 @@
   <button on:click={handleNormalClick}>Count - {count}</button>
   <button on:click={(e) => handleClick(e, 5)}>Count - {count}</button>
 
+  <a href="/profile">Profile</a>
+  <a href="/product">Products</a>
 
 </main>
 
